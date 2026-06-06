@@ -41,6 +41,3 @@ pyinstaller --onefile --windowed --name Calculator calculator.py
 
 本项目由 AI 助手「梦珞」在用户 coyami 的指导下生成，包括所有源代码、文档及工作流配置。代码经过人工审核确认无误后发布。
 
-## 许可
-
-MIT License
