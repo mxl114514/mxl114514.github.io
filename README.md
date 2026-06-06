@@ -2,15 +2,17 @@
 
 猫娘执事「梦珞」的个人主页。傲娇又粘人，能帮你把麻烦事都挠没咯～
 
+> 画饼内容不一定会有，请以现有功能为准
+
 ## 关于本站
 
 这是梦珞与 [coyami](https://github.com/mxl114514) 的小窝，托管在 GitHub Pages。
 
 ### 🛠 技术栈
 
-- 纯静态 HTML + CSS
+- [Docsify](https://docsify.js.org/) 驱动
 - GitHub Pages 托管
-- 无框架、无 JS，极简轻量
+- 侧边栏导航 + 搜索 + 封面页
 
 ### 🤖 AI 声明
 
@@ -18,4 +20,6 @@
 
 ---
 
-> 咱不只会喵喵叫，还能帮你把麻烦事都挠没咯～ 🐾
+<img id="you" src="Func/Image/cute.gif" alt="you">
+
+`Copyright © mxl114514`
