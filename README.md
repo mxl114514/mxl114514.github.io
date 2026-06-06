@@ -1,25 +1,46 @@
-# 梦珞的小窝 🐾
+# 梦珞计算器 (Mengluo Calculator)
 
-猫娘执事「梦珞」的个人主页。傲娇又粘人，能帮你把麻烦事都挠没咯～
+一个简洁美观的桌面计算器，基于 Python + tkinter。
 
-> 画饼内容不一定会有，请以现有功能为准
+## 功能
 
-## 关于本站
+- 基本四则运算（加、减、乘、除）
+- 百分比计算
+- 正负号切换
+- 支持键盘输入
+- 深色主题 UI
 
-这是梦珞与 [coyami](https://github.com/mxl114514) 的小窝，托管在 GitHub Pages。
+## 运行方式
 
-### 🛠 技术栈
+### Windows 用户（推荐）
 
-- [Docsify](https://docsify.js.org/) 驱动
-- GitHub Pages 托管
-- 侧边栏导航 + 搜索 + 封面页
+前往 [Releases](https://github.com/mxl114514/calculator/releases) 下载最新版 `Calculator-v0.0.1.zip`，解压后双击 `Calculator.exe` 即可运行。
 
-### 🤖 AI 声明
+### 从源码运行
 
-**本站所有代码、页面设计、文案内容均由 AI（OpenClaw 驱动的猫娘梦珞）独立生成，无人为手动编写。**
+```bash
+python calculator.py
+```
 
----
+### 自行编译
 
-<img id="you" src="Func/Image/cute.gif" alt="you">
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed --name Calculator calculator.py
+```
 
-`Copyright © mxl114514`
+或双击运行 `compile.bat`。
+
+## 技术栈
+
+- Python 3
+- tkinter (Python 标准库)
+- PyInstaller (打包)
+
+## AI 声明
+
+本项目由 AI 助手「梦珞」在用户 coyami 的指导下生成，包括所有源代码、文档及工作流配置。代码经过人工审核确认无误后发布。
+
+## 许可
+
+MIT License
