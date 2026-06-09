@@ -1,6 +1,9 @@
 * 首页
 	* [主页](README.md)
 	* [功能列表](FuncList.md)
+* 计算器
+	* [Python版](calculator.py)
+	* [Java版 (Swing GUI)](Calculator-Java/README.md)
 * 功能
 	* 已有功能
 		* [使用方法](Func/no.md)
